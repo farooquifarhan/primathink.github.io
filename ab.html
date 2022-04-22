@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Prima Think</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono|Work+Sans:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="home.css">
+     
+    </head>
+    <body>
+        <!--Header Start-->
+        <header class="container">
+            <!--Navigation starts-->
+            <nav class="navigation inner flex">
+                <div class="logo-box">
+                    <img src="data:image/png;base64,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" class="logo">
+                </div>
+
+                <div class="menu-box">
+                    <ul class="menu flex">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service.html">Service</a></li>
+                       
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                       
+                    </ul>
+
+                </div>
+                <div class="search-box">
+                    <button class="btn">Contact Us<spam class="fa-fa-long-arrow-right aero"></spam></button>
+                </div>
+                <button class="fa fa-bars toggle"></button>
+            </nav>
+            <!--Navigation ends here-->
+            <!--Banner starts -->
+            <section class="banner inner flex">
+                <div class="box box1">
+                    <h1> Digital Marketing and <br> Web Development Company</h1>
+                    <p> We are Full-Stack Digital Transformation Company. As a Digital Marketing Company,
+                         we are offering Digital Marketing, Web Development & Digital Transformation Consulting.
+                          We have experts who are result oriented in building online brand presence.</p>
+                    <button class="btn1">More about us</button>
+                    <button class="btn1 btn2">Get in Touch</button>
+                </div>
+                <div class="box">
+                    <img src="https://content3.jdmagicbox.com/comp/amravati/j3/9999px721.x721.191126154003.k5j3/catalogue/primathink-amravati-843xmop78f.jpg" class ="banner-image" alt="Banner">
+                </div>
+            </section>
+            <!--Banner ends here-->
+
+        </header>
+        <!--Header ends here-->
+
+        <!--Three Sections Starts-->
+        <section class="three-section inner flex">
+            <div class="box">
+                <h2> Our Trademarked
+                    Process & Workflow.</h2>
+                    <p> Strategic Brand Consulting ✓ Design & Strategic Marketing Agency<br>
+                        ✓ Grow Your Business ✓ ROI Driven Performance ✓ Certified Experts</p>
+               <button class ="btn">Get in touch </button>
+               <h2><br><br><br> Digital Marketing Services...</h2>
+               <p ><b><i><u><h4 style ="color:darkslategray; font-size: 30px">SEO</h4></u></i></b> <br>SEO is fuel for local small scale business.<br>
+              <br><b><i><u><h4 style ="color:darkslategray; font-size: 30px">Social Media </h4></u></i></b>  <br>Creating Brands need genral Impression on social Media.<br>
+               <br><b><i><u><h4 style ="color:darkslategray; font-size: 30px">Website Development</h4></u></i></b>  <br> A website is one of the most crusial factor while building online presence .<br>
+               <br><b><i><u><h4 style ="color:darkslategray; font-size: 30px">Paid Ads</h4></u></i></b>  <br> Paid Advertising gives you immediate leads and online presence.<br>
+               <br><b><i><u><h4 style ="color:darkslategray; font-size: 30px">E-Commerce</h4> </u></i></b>  <br> Manage the business and make transcations by an online shop.<br>
+               <br>
+               <b><i><u><h4 style ="color:darkslategray; font-size: 30px">Maintenance</h4></u></i></b>  <br> An powerful business Website requires regular carrying.<br>
+           </p>
+            </div>
+            <div class ="box box-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6s3KFsH0Zce9jteboM5QVx1__-DM9wDJhJWjx9y70cxcA-JbuMZHz-p2sqYaFJhBDz4&usqp=CAU" class="two-image" alt="">
+             
+               
+              <p> \Full-Stack Development is the need of the world,
+                   we understand and believe in Digital Transformation. We provide the best solutions, consultations for Digital Marketing and Full-Stack Web Development.</p>
+                  
+            </div>
+            <div class ="box box-2">
+                <img src="https://www.reliablesoft.net/wp-content/uploads/2019/08/digital-marketing-courses.png" class="two-image" alt="">
+                <h3>Web Development <br> Services</h3>
+              <p> Our approach and experience in all aspects of Website Development And Designing, assisting our potential clients reaching out their requirements.
+                   Building Up Your Business Online and interactive presence, sell more and find more leads.</p>
+                   <img src="https://yashus.in/wp-content/uploads/2019/01/banner1.png" class="banner-image" alt="">
+            </div>
+        </section>
+
+        <!-- Three Section Ends here -->
+
+        <!-- two-Section starts-->
+        <section class="two-section">
+        <div class="two-box">
+            <img src="" class ="about">
+        </div>
+        <div class="two-box">
+            <h5> OUR COMPANY</h5> 
+            <h2>Full Stack Digital Marketing </h2>  
+             <p> Understanding the Digital Transformation its need globally we devote ourselves towards the best Software solutions and Digital Marketing strategy solutions.
+                  We highly work for the success of our clients by serving them with the complete Digital Transformation Consultations Services and Solutions. 
+                  As we are the Full Stack Digital Transformation Company.
+
+                The world needs Promotion, awareness and leads for their brands this ultimately brings up the Sales. Moving along with technology for Sales Digital Marketing
+                 is the Best Solution. However, we present and provide not only Digital Marketing Results, but we build a reliable Full Stack Digital Marketing Services and 
+                 Consultation from the roots of your Business.</p>
+             <span class="fa fa-long-arrow-right aero"></span>
+             </div>
+        </section>
+
+        <!-- Two section ends here -->
+
+        <!-- Image Section -->
+
+        <section class="images">
+            <div class="image-box inner flex">
+         
+                   
+                <img src=" https://images-platform.99static.com//5izzx5mICDKM8GVjq-fDbXrLqyU=/482x1354:1119x1991/fit-in/500x500/99designs-contests-attachments/124/124405/attachment_124405286" class="img-box">
+           
+          
+                <img src=" https://cdn.dribbble.com/users/10882/screenshots/15083292/media/9854f4e73080509b9b5fc36f3d5ea323.png?compress=1&resize=400x300" class="img-box">
+               
+                <img src=" https://cdn.dribbble.com/users/65105/screenshots/4060343/wireframe_logo_03.png" class="img-box" >
+          
+                <img src="https://www.pngkit.com/png/detail/154-1545805_portfolio-icons-code-web-development-logo.png" class="img-box">
+              
+            </div>
+            <p style=" font-size: 30px; color: black; font-weight: 300; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"></p>SowMore -></p>
+
+        </section>
+        <!--Image section ends here-->
+
+        <!-- Three section 2 starts-->
+
+        <section class="three-section inner">
+            <h4  class="red-font">BLOG STORIES </h4>
+            <h2> Check Our News</h2>
+            <div class="three-box2 flex">
+                <div class="three-box red box">
+                <h5> Kyle Brandon</h5>
+                <h6> Marketing Head At krazy salt, USA</h6>
+                <p> "Recommend this team for Facebook & Instagram Ads Campaign. Happy with ROI"</p>
+                <span class="fa fa-long-arrow-right aero"></span>
+                </div>
+                <div class="three-box ">
+                    <h5> Shifra</h5>
+                    <h6> Owner At SurveyToro, Israel</h6>
+                    <p> <br>"He did an awesome job on Ad banners, love it. Talented designer"</p>
+                    <span class="fa fa-long-arrow-right aero"></span>
+                    </div>
+                    <div class="three-box ">
+                        <h5> Craig Brunt</h5>
+                        <h6> Owner At RedoxtrendsLLC, Netherlands</h6>
+                        <p> <br>"Great job. Very helpful working through some complicated issues {Facebook re-marketing campaign}"</p>
+                        <span class="fa fa-long-arrow-right aero"></span>
+                        </div>
+            </div>
+        </section>
+
+         <!-- Three box ends here -->
+
+         <!-- Forms section starts -->
+
+         <section class="contact three-section inner">
+             <div class="contact-text">
+                 <h2 class="red-font">Contact Us</h2>
+                
+             </div>
+             <div class="form-section">
+                 <form action="#">
+                     <input type="text" placeholder="Your Email" class="contact-box">
+                     <input type="text" placeholder="Subject" class="contact-box">
+                     <textarea placeholder="Message " class="message-box"></textarea>
+
+                 </form>
+
+             </div>
+             <button class="btn1 send">Send Message </button>
+         </section>
+
+         <!--Forms section ends hetre -->
+
+         <!--Fotter section starts -->
+
+         <footer>
+             <div class="footer-box inner">
+                 <h5> Prima Thinks </h5>
+                 <h3> Creativity Above </h3>
+                 <ul class="Footer-list flex">
+                    <li>Home.</li>
+                    <li>About us.</li>
+                    <li>Services.</li>
+                    <li>Blog.</li>
+                    <li>Contact Us</li>
+                    
+                   
+                   
+                 </ul>
+                 <h6> 2021-Prima Thinks ,All Right Reserved</h6>
+                 <spam class="fa fa-facebook social"></spam>
+                 <spam class="fa fa-twitter social"></spam>
+                 <spam class="fa fa-instagram social"></spam>
+                 <spam class="fa fa-linkedin social"></spam>             </div>
+             </footer>
+
+             <!--Footer section ends here -->
+             <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+             <script src="script.js"></script>
+    </body>
+</html>
